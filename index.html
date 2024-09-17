@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pop-it</title>
+    <meta name="description" content="Best anti-stress toy ever!">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <!-- Logo a sinistra -->
+        <div class="header__logo">
+            <p>NOT_A_BUBBLE.COM</p>
+        </div>
+
+        <!-- Icona dell'hamburger per il mobile -->
+        <div class="header__hamburger" id="hamburger">&#9776;</div>
+
+        <!-- Menu di navigazione per desktop -->
+        <nav class="header__nav">
+            <ul class="header__nav-list">
+                <li class="header__nav-item"><a href="#" class="header__nav-link">About</a></li>
+                <li class="header__nav-item"><a href="#" class="header__nav-link">Sales</a></li>
+                <li class="header__nav-item"><a href="#" class="header__nav-link">Contacts</a></li>
+            </ul>
+        </nav>
+
+        <!-- Menu di navigazione per mobile (barra laterale) -->
+        <nav class="header__nav-mobile" id="nav-mobile">
+            <ul class="header__nav-mobile-list">
+                <li class="header__nav-mobile-item"><a href="#" class="header__nav-mobile-link">About</a></li>
+                <li class="header__nav-mobile-item"><a href="#" class="header__nav-mobile-link">Sales</a></li>
+                <li class="header__nav-mobile-item"><a href="#" class="header__nav-mobile-link">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section con immagine e testo -->
+    <section class="hero">
+        <h1 class="hero__heading uppercase">POP IT!</h1>
+        <p class="hero__par">Best Antistress Toy is the endless toy bubble wrap!</p>
+        <button class="hero__button green-bg">
+            <a href='#' class="hero__button-link uppercase">buy</a>
+        </button>           
+    </section>
+
+    <!--Sezione che descrive il prodotto-->
+    <section class="product-description">
+        <div class="product-description__content">
+            <h2 class="product-description__title">What is Pop It exactly?</h2>
+            <p class="product-description__text">This is a child's game, in which the process can be compared to the bursting of a bubble wrap. But unlike film, pop-it can be pressed with the same characteristic sensations and sound "endlessly": dozens of silicone bubbles are simply squeezed out in the other direction.</p>
+        </div>
+    </section>
+
+    <!--Sezione dedicata a una galleria prodotti-->
+    <section class="product-gallery green-bg">
+        <h2 class="product-gallery__title">Choose your Pop-it!</h2>
+        
+        <div class="product-gallery__items">
+            <div class="product-gallery__item">
+                <img src="images/square.png" alt="Multicolored square pop-it" class="product-gallery__item-image">
+                <p class="product-gallery__item-text">Multicolored square</p>
+                <button class="product-gallery__item-button orange-bg">
+                    <a href="#" class="product-gallery__item-button-link uppercase">Buy</a>
+                </button>
+            </div>
+    
+            <div class="product-gallery__item">
+                <img src="images/amongus.png" alt="Marbled pop-it" class="product-gallery__item-image">
+                <p class="product-gallery__item-text">Among us, marbled</p>
+                <button class="product-gallery__item-button orange-bg">
+                    <a href="#" class="product-gallery__item-button-link uppercase">Buy</a>
+                </button>
+            </div>
+    
+            <div class="product-gallery__item">
+                <img src="images/round.png" alt="Multicolored round" class="product-gallery__item-image">
+                <p class="product-gallery__item-text">Multicolored round</p>
+                <button class="product-gallery__item-button orange-bg">
+                    <a href="#" class="product-gallery__item-button-link uppercase">Buy</a>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!--Sezione dedicata alle regole del gioco-->
+    <section class="rules">
+        <div class="rules__content">
+            <div class="rules__content-description">
+                <h2 class="rules__content-description-title">Rules of the game</h2>
+                <p class="rules__content-description-par">Players take turns and click on the bumps. It is imperative to finish the row that you started. You can press a maximum of 3 bubbles at the same time &#40;they must be near, you cannot press several pimples at once, if they are not close to each other &#41;. The task is to make the opponent go last. Who went last - he lost!</p>
+            </div>
+            <div class="rules__content-image-container">
+                <img width="100%" src="images/photo.jpg" alt="Descriptive alt text" class="rules__content-image-container-img">
+            </div>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <footer class="footer">
+        <div class="footer__container">
+          <p class="footer__item"><a class="footer__item-link" href="#">NOT_A_BUBBLE.COM</a></p>
+          <p class="footer__item"><a class="footer__item-link" href="#">Payment methods</a></p>
+          <p class="footer__item"><a class="footer__item-link" href="#">Delivery</a></p>
+          <p class="footer__item"><a class="footer__item-link" href="#">Wholesale</a></p>
+          <p class="footer__item"><a class="footer__item-link" href="#">Contacts</a></p>
+        </div>
+    </footer>
+
+    <script src="js.js"></script>
+</body>
+</html>
